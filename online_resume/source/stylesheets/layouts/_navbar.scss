@@ -1,0 +1,110 @@
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: transparent;
+  border: 0;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background: transparent;
+  color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.dropdown-menu > li > a {
+  padding: 7px 20px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+.navmenu-brand {
+  padding: 15px 0;
+  position: relative;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #077b91;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #428bca;
+}
+.navbar-toggle {
+  padding: 6px 12px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  color: #000;
+}
+@media (max-width: 768px) {
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+  background: #1d1d1d;
+  border: 0;
+  border-top: 1px solid #444;
+  box-shadow: none;
+  margin-top: 15px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #777;
+  }
+}
+.navbar .container{
+  width: 100%;
+  padding: 15px 10%;
+}
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3999;
+  background: #1d1d1d;
+  border-radius: 0;
+}
+#nav{
+  position: absolute;
+  width: 100%;
+  z-index: 2001;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{
+  color: #869198;
+  font-weight: 700;
+}
+.list-inline {
+  margin-left: 0;
+}
+.list-inline li [class*="fa-"] {
+  margin-right: 3px;
+}

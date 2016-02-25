@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+  transform: translateX(-100%);
+  transition: 0.2s;
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  li {
+    margin-top:50px;
+    margin-bottom: 50px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#788188;
+    &:hover{
+      color: #077b91;
+    }
+  }
+}
+
+// will be activated when javascript is met
+.sidebar.fixed {
+  transform: translateX(0);
+}
