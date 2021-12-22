@@ -10687,8 +10687,8 @@ body {
   color: rgba(237, 237, 237, 0.9);
   line-height: 1.6em;
   padding: 0 120px;
-  background-image: -webkit-linear-gradient(315deg, rgba(32, 115, 141, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%), url("../images/cropmarks.png");
-  background-image: linear-gradient(-225deg, rgba(32, 115, 141, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%), url("../images/cropmarks.png");
+  background-image: -webkit-linear-gradient(315deg, rgba(32, 115, 141, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%), url("../images/perugia.jpg");
+  background-image: linear-gradient(-225deg, rgba(32, 115, 141, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%), url("../images/perugia.jpg");
   background-attachment: fixed;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
